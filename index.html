@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!------------------------------Login  Page------------------------------->
+    <div id="log-in_page">
+        <div class="login-page">
+            <form id="log-in">
+                <h2>Login</h2>
+                <label for="uname">User name</label>
+                <input type="text" id="username" placeholder="Enter your user name"><br>
+                <label for="psd">Password</label>
+                <input type="password" id="password" placeholder="Enter your password"><br>
+                <button onclick="login()" type="button" class="log_btn">Login</button>
+                <button onclick="showRegisterForm()" type="button" class="register_btn">Register now</button>
+                <p>Dont have account? Create now</p>
+            </form>
+        </div>
+    </div>
+
+<!----------------------------------Registration page------------------------>
+
+    <div id="register_page" style="display: none;">
+        <div class="register-container">
+            <form id="register-form">
+                <h2>Register</h2>
+                <label for="name">Name</label>
+                <input type="text" id="rname" placeholder="Enter your full name"><br>
+                <label id="gender" for="gender">Gender</label><br>
+                <label><input type="radio" name="gender" value="Male">Male</label><br>
+                <label><input type="radio" name="gender" value="Female">Female</label><br>
+                <label><input type="radio" name="gender" value="Others">Others</label><br>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="date"><br>
+                <label for="subject">Select your Subject</label>
+                <select name="subject" id="subject" required>
+                    <option value="">----Select one----</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Backend Developer">Backend Developer</option>
+                    <option value="Devops Engineering">Devops Engineer</option>
+                    <option value="sap">SAP</option>
+                </select><br>
+                <button onclick="fetchData()" type="button" class="r_btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+<!--------------------------------------Home Page---------------------------->
+    <div id="home-page" style="display: none;">
+        <h1>Welocme to Home page</h1>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+</html>

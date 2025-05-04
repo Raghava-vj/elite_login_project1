@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#log-in_page{
+  background-color: cornflowerblue;
+  color: white;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#log-in_page h2{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#log-in_page input[type="text"],[type="password"]
+{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.log_btn
+{
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+.log_btn:hover
+{
+  background-color: #45a049;
+}
+.log_btn:active
+{
+  background-color: #3e8e41;
+}
+
+.register_btn
+{
+  width: 100%;
+  padding: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+.register_btn:hover
+{
+  background-color: #007bb5;
+}
+
+#log-in_page p{
+  color: rgb(201, 201, 201);
+  margin-top: 5px;
+}
+
+/*=============login code end here=================*/
+
+
+
+/*=============register code start here=================*/
+
+#register_page{
+  background-color: cornflowerblue;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: opx opx 20px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+#register_page h2{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#register_page input[type="text"]{
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0;
+  margin-bottom: 20px;
+}
+
+#register_page input{
+  margin: 10px 0;
+}
+
+#subject{
+  margin: 8px 0;
+}
+
+#register_page label{
+  font-size: 18px;
+}
+
+#register_page input[type="date"]{
+  margin: 15px 0;
+  width: 60%;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+#subject {
+  width: 40%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.r_btn{
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(139, 255, 255);
+  transition: background-color 0.3 ease;
+  cursor: pointer;
+}
+.r_btn:hover{
+  background-color: rgb(57, 253, 253);
+}
